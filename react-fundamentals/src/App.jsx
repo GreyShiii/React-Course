@@ -3,6 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import Greeting from './Greeting'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         </div>
         <div>
           <h1>My First React App</h1>
+          <Greeting />
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
