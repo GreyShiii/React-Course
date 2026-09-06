@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Greeting from './Greeting'
 import Card from './Card'
+import ProductList from './ProductList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,8 @@ function App() {
           <Greeting name="John" language="Go" />
           <Card  title="React" description="A JavaScript library" color="blue" />
           <Card  title="JavaScript" description="A programming language" color="yellow" />
+          <ProductList />
+          
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
