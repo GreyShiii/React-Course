@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Greeting from './Greeting'
+import Card from './Card'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,11 @@ function App() {
         </div>
         <div>
           <h1>My First React App</h1>
-          <Greeting />
+          <Greeting name="Grey" language="JavaScript" />
+          <Greeting name="Jane" language="Python" />
+          <Greeting name="John" language="Go" />
+          <Card  title="React" description="A JavaScript library" color="blue" />
+          <Card  title="JavaScript" description="A programming language" color="yellow" />
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>

@@ -1,10 +1,9 @@
-export default function Greeting() {
-    const favoriteLanguage = "JavaScript";
+export default function Greeting({name, language}) {
     return (
         <>
             <h2>Welcome to React!</h2>
-            <p>Grey</p>
-            <p>My favorite language is {favoriteLanguage}</p>
+            <p>Name: {name}</p>
+            <p>My favorite language is {language}</p>
         </>
     )
 }
