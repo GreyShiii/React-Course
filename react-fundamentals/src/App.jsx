@@ -6,6 +6,8 @@ import './App.css'
 import Greeting from './Greeting'
 import Card from './Card'
 import ProductList from './ProductList'
+import Counter from './Counter'
+import NameInput from './NameInput'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +28,9 @@ function App() {
           <Card  title="React" description="A JavaScript library" color="blue" />
           <Card  title="JavaScript" description="A programming language" color="yellow" />
           <ProductList />
+          <Counter />
+          <NameInput />
+
           
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
