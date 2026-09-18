@@ -8,6 +8,9 @@ import Card from './Card'
 import ProductList from './ProductList'
 import Counter from './Counter'
 import NameInput from './NameInput'
+import TodoItem from './TodoItem'
+import ColorPicker from './ColorPicker'
+import UserProfile from './UserProfile'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +33,9 @@ function App() {
           <ProductList />
           <Counter />
           <NameInput />
-
+          <TodoItem />
+          <ColorPicker />
+          <UserProfile />
           
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
