@@ -11,6 +11,9 @@ import NameInput from './NameInput'
 import TodoItem from './TodoItem'
 import ColorPicker from './ColorPicker'
 import UserProfile from './UserProfile'
+import SimpleForm from './SimpleForm'
+import ContactForm from './ContactForm'
+import LoginForm from './LoginForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,6 +39,9 @@ function App() {
           <TodoItem />
           <ColorPicker />
           <UserProfile />
+          <SimpleForm />
+          <ContactForm />
+          <LoginForm />
           
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
