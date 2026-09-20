@@ -1,4 +1,4 @@
-import Card from "./Card"
+import Card from "../Phase-2/Card"
 
 export default function ProductList() {
     const products = [

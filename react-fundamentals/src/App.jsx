@@ -3,17 +3,20 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Greeting from './Greeting'
-import Card from './Card'
-import ProductList from './ProductList'
-import Counter from './Counter'
-import NameInput from './NameInput'
-import TodoItem from './TodoItem'
-import ColorPicker from './ColorPicker'
-import UserProfile from './UserProfile'
-import SimpleForm from './SimpleForm'
-import ContactForm from './ContactForm'
-import LoginForm from './LoginForm'
+import Greeting from './Phase-1/Greeting'
+import Card from './Phase-2/Card'
+import ProductList from './Phase-3/ProductList'
+import Counter from './Phase-4/Counter'
+import NameInput from './Phase-4/NameInput'
+import TodoItem from './Phase-5/TodoItem'
+import ColorPicker from './Phase-5/ColorPicker'
+import UserProfile from './Phase-5/UserProfile'
+import SimpleForm from './Phase-6/SimpleForm'
+import ContactForm from './Phase-6/ContactForm'
+import LoginForm from './Phase-6/LoginForm'
+import Toggler from './Phase-7/Toggler'
+import Auth from './Phase-7/Auth'
+import DataFetcher from './Phase-7/DataFetcher'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -42,6 +45,9 @@ function App() {
           <SimpleForm />
           <ContactForm />
           <LoginForm />
+          <Toggler />
+          <Auth />
+          <DataFetcher />
           
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
